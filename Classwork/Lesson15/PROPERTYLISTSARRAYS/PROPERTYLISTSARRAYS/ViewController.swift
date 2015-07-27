@@ -10,7 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var movie: UILabel!
+    
+    
+    func setupTextFields() {
+        movieField.
+        
+        formatTextField(movieField)
+    }
+    
+    func formatTextField(textField: UITextField) {
+        textField.keyboardType = (textField == movieField) ? .default : .ASCIICapable
+    }
+    
+       @IBAction func submitButton(sender: UIButton) {
+        
+    }
+
+   
+   let movie = NSBundle.mainBundle().pathForResource("Movies", ofType: "plist")
+    if let movie = movie {
+        let movie = NSArray(contentsOfFile: movie)
+        println(movie)
+    }
+    
+        //        let students = NSArray(contentsOfFile: studentsPath)
+        //        println(students)
+    
+//    let movie = NSBundle.mainBundle().pathForResource("Movies", ofType: "plist")
+//    
+//    if let studentsPath = studentsPath {
+//        let students = NSArray(contentsOfFile: studentsPath)
+//        println(students)
+//    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

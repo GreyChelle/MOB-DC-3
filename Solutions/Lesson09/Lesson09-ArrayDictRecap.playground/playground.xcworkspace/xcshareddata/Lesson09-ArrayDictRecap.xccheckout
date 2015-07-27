@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0C107E74-C736-405E-9690-419B055811CE</string>
+	<string>F969CE4F-7BC8-499F-B995-75D09CC9780C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lesson15-Plist</string>
+	<string>Lesson09-ArrayDictRecap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/GreyChelle/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson15/Lesson15-Plist/Lesson15-Plist.xcodeproj</string>
+	<string>Solutions/Lesson09/Lesson09-ArrayDictRecap.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/GreyChelle/MOB-DC-3.git</string>

@@ -13,6 +13,7 @@
 		1C92C54C1B606CEB00DCB967 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C92C54B1B606CEB00DCB967 /* Images.xcassets */; };
 		1C92C54F1B606CEB00DCB967 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C92C54D1B606CEB00DCB967 /* LaunchScreen.xib */; };
 		1C92C55B1B606CEB00DCB967 /* PROPERTYLISTSARRAYSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C92C55A1B606CEB00DCB967 /* PROPERTYLISTSARRAYSTests.swift */; };
+		1C92C5651B60710900DCB967 /* Property List for Movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C92C5641B60710900DCB967 /* Property List for Movies.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1C92C5541B606CEB00DCB967 /* PROPERTYLISTSARRAYSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROPERTYLISTSARRAYSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C92C5591B606CEB00DCB967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C92C55A1B606CEB00DCB967 /* PROPERTYLISTSARRAYSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROPERTYLISTSARRAYSTests.swift; sourceTree = "<group>"; };
+		1C92C5641B60710900DCB967 /* Property List for Movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List for Movies.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				1C92C5441B606CEB00DCB967 /* AppDelegate.swift */,
 				1C92C5461B606CEB00DCB967 /* ViewController.swift */,
 				1C92C5481B606CEB00DCB967 /* Main.storyboard */,
+				1C92C5641B60710900DCB967 /* Property List for Movies.plist */,
 				1C92C54B1B606CEB00DCB967 /* Images.xcassets */,
 				1C92C54D1B606CEB00DCB967 /* LaunchScreen.xib */,
 				1C92C5421B606CEB00DCB967 /* Supporting Files */,
@@ -195,6 +198,7 @@
 				1C92C54A1B606CEB00DCB967 /* Main.storyboard in Resources */,
 				1C92C54F1B606CEB00DCB967 /* LaunchScreen.xib in Resources */,
 				1C92C54C1B606CEB00DCB967 /* Images.xcassets in Resources */,
+				1C92C5651B60710900DCB967 /* Property List for Movies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				1C92C5601B606CEB00DCB967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C92C5611B606CEB00DCB967 /* Build configuration list for PBXNativeTarget "PROPERTYLISTSARRAYSTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				1C92C5631B606CEB00DCB967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
