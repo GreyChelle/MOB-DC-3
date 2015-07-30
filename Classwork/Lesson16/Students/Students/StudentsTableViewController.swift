@@ -11,6 +11,7 @@ import UIKit
 class StudentsTableViewController: UITableViewController, StudentDelegate {
     
     var students = [Student]()
+   weak var store = StudentStore.sharedStore
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,12 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
         self.navigationItem.leftBarButtonItem = self.editButtonItem()
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+
+        students = store!.getAllStudents()
+        tableView.reloadData()
+    }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "addStudent" {
             // The destination VC is a navigation controller
@@ -57,6 +64,8 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
             students.removeAtIndex(indexPath.row)
+            
+            store?.removeStudent(students[indexPath.row])
             
             // Delete the row from the data source
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)

@@ -10,6 +10,7 @@ import UIKit
 
 protocol StudentDelegate {
     func addStudent(name: String, location: String)
+
 }
 
 class AddViewController: UIViewController, UITextFieldDelegate, StudentDelegate {
